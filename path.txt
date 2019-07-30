@@ -1,0 +1,27 @@
+NODES
+a	0	0
+c	200	200
+b	100	200
+d	50	300
+e	350	350
+f	450	300
+g	100	350
+h	500	500
+x	500	100
+y	500	150
+z	550	100
+EDGES
+a	b
+b	c
+c	a
+b	d
+c	e
+e	f
+x	y
+d	g
+x	z
+g	h
+f	g
+f	h
+f	z
+g	z
